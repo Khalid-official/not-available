@@ -1,6 +1,6 @@
 /*
 
-# Base By Devorsixcore
+# Base 𝐁𝐲 - ᦔ𝘳ꫀ᥊ ⧼𝕲⧽°•°•°𝓰𝓻𝓮𝔂 【𓍯】
 # Owner ? : t.me/imdevorsix
 !- do not delete this credit
 
@@ -77,6 +77,8 @@ InteractiveMessage,
 Header
 } = require("@whiskeysockets/baileys")
 //=================================================//
+const more = String.fromCharCode(8206);
+const readmore = more.repeat(4001);
 const axios = require("axios")
 const os = require("os").cpus().length
 const util = require("util")
@@ -187,7 +189,7 @@ const undt = fs.readFileSync(path.resolve(__dirname, '../trashbase/media/underta
 const { tios, tiosv2, tiosv3 } =  require("../trashbase/virtex/tios.js")
 const { tiv } =  require("../trashbase/virtex/tiv.js")
 //=================================================//
-const time = moment().tz("Asia/Jakarta").format("HH:mm:ss")
+const time = moment().tz("Africa/Nairobi").format("HH:mm:ss")
 let ucapanWaktu
 if (time >= "19:00:00" && time < "23:59:00") {
 ucapanWaktu = "夜 🌌"
@@ -200,10 +202,10 @@ ucapanWaktu = "朝 🌁"
 } else {
 ucapanWaktu = "夜明け 🌆"
 }
-const wib = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("HH:mm:ss z")
-const wita = moment(Date.now()).tz("Asia/Makassar").locale("id").format("HH:mm:ss z")
-const wit = moment(Date.now()).tz("Asia/Jayapura").locale("id").format("HH:mm:ss z")
-const salam = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("a")
+const wib = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
+const wita = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
+const wit = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
+const salam = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("a")
 let d = new Date
 let gmt = new Date(0).getTime() - new Date("1 Januari 2024").getTime()
 let weton = ["Pahing", "Pon", "Wage", "Kliwon", "Legi"][Math.floor(((d * 1) + gmt) / 84600000) % 5]
@@ -268,8 +270,8 @@ const xreply = async (teks) => {
             externalAdReply: {
                 showAdAttribution: false,
                 renderLargerThumbnail: false,
-                title: `TdXClient - Master`,
-                body: `By Devorsixcore`,
+                title: `𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒`,
+                body: `𝐁𝐲 - ᦔ𝘳ꫀ᥊ ⧼𝕲⧽°•°•°𝓰𝓻𝓮𝔂 【𓍯】`,
                 previewType: "VIDEO",
                 thumbnail: razer,
                 sourceUrl: `${global.url1}`,
@@ -295,7 +297,7 @@ const dust = {
                 "title": ""
             },
             "body": {
-                "text": "▾ 𝐓͢𝐝𝐗 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 ▾"
+                "text": "▾ 𝐝͢.𝐑.𝐄.𝐗 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 ▾"
             },
             "footer": {
                 "text": "by - devosixcore"
@@ -435,218 +437,218 @@ let latensi = speed() - timestamp
 let run = runtime(process.uptime())
 let teks = ` ${ucapanWaktu} - ${m.pushName}
 
- ▢ Creator : devorsixcore
- ▢ Library : WS-Baileys
- ▢ Type : Case-Plug
- ▢ Status : On
- ▢ Mode : ${tdx.public ? 'Public' : 'Self'}
- ▢ Prefix : ${prefix}
- ▢ Resp Speed : ${latensi.toFixed(4)}
- ▢ Runt : ${run}
+ ◈ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : ᦔ𝘳ꫀ᥊ ⧼𝕲⧽°•°•°𝓰𝓻𝓮𝔂 【𓍯】
+ ◈ 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝙒𝙨-𝘽𝙖𝙞𝙡𝙚𝙮𝙨
+ ◈ 𝐓𝐲𝐩𝐞 : 𝘾𝙖𝙨𝙚-𝙋𝙡𝙪𝙜𝙞𝙣𝙨
+ ◈ 𝐒𝐭𝐚𝐧𝐝𝐛𝐲 : 𝙏𝙧𝙪𝙚
+ ◈ 𝐌𝐨𝐝𝐞 : ${tdx.public ? 'Public' : 'Self'}
+ ◈ 𝐏𝐫𝐞𝐟𝐢𝐱 : ${prefix}
+ ◈ 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 𝐒𝐩𝐞𝐞𝐝 : ${latensi.toFixed(4)}
+ ◈ 𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${run}
+ 
+${readmore}
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Owner
+⧽ ◎ public
+⧽ ◎ self
+⧽ ◎ addprem
+⧽ ◎ delprem
+⧽ ◎ addowner
+⧽ ◎ delowner
+⧽ ◎ addplug
+⧽ ◎ cgplug
+⧽ ◎ rmplug
+⧽ ◎ getplug
+⧽ ◎ getq
+⧽ ◎ join [link group]
+⧽ ◎ leavegc
+⧽ ◎ block [nomor]
+⧽ ◎ unblock [nomor]
+⧽ ◎ listblock
+⧽ ◎ setppbot [reply gambar]
+⧽ ◎ setbiobot [teks]
+⧽ ◎ listpc
+⧽ ◎ =>
+⧽ ◎ >
+⧽ ◎ $
+╰
 
-┌──────
-├─── ▢ Owner
-├─ public
-├─ self
-├─ addprem
-├─ delprem
-├─ addowner
-├─ delowner
-├─ addplug
-├─ cgplug
-├─ rmplug
-├─ getplug
-├─ getq
-├─ join [link group]
-├─ leavegc
-├─ block [nomor]
-├─ unblock [nomor]
-├─ listblock
-├─ setppbot [reply gambar]
-├─ setbiobot [teks]
-├─ listpc
-├─ =>
-├─ >
-├─ $
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Group
+⧽ ◎ editsubjek
+⧽ ◎ editdesk
+⧽ ◎ setppgroup
+⧽ ◎ setppgc
+⧽ ◎ linkgc
+⧽ ◎ resetlinkgc
+⧽ ◎ revoke
+⧽ ◎ kick
+⧽ ◎ add
+⧽ ◎ promote
+⧽ ◎ demote
+⧽ ◎ hidetag
+⧽ ◎ tagall
+╰
 
-┌──────
-├─── ▢ Group
-├─ editsubjek
-├─ editdesk
-├─ setppgroup
-├─ setppgc
-├─ linkgc
-├─ resetlinkgc
-├─ revoke
-├─ kick
-├─ add
-├─ promote
-├─ demote
-├─ hidetag
-├─ tagall
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Convert
+⧽ ◎ sticker
+⧽ ◎ toimg
+⧽ ◎ tts text|lang
+⧽ ◎ smeme text1|text2
+⧽ ◎ textmaker text1|text2
+⧽ ◎ tesc text
+⧽ ◎ tocc text
+⧽ ◎ stt text
+⧽ ◎ attp text
+⧽ ◎ toascii text
+⧽ ◎ qrcode text
+⧽ ◎ barcode text
+⧽ ◎ shorturl link
+⧽ ◎ removebg reply img
+⧽ ◎ remini reply img
+⧽ ◎ calculator
+╰
 
-┌──────
-├─── ▢ Convert
-├─ sticker
-├─ toimg
-├─ tts text|lang
-├─ smeme text1|text2
-├─ textmaker text1|text2
-├─ tesc text
-├─ tocc text
-├─ stt text
-├─ attp text
-├─ toascii text
-├─ qrcode text
-├─ barcode text
-├─ shorturl link
-├─ removebg reply img
-├─ remini reply img
-├─ calculator
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Download 
+⧽ ◎ igdl url
+⧽ ◎ mediafire url
+⧽ ◎ ytmp3 url
+⧽ ◎ ytmp4 url
+⧽ ◎ gitclone url
+⧽ ◎ tiktok url
+╰
 
-┌──────
-├─── ▢ Download 
-├─ igdl url
-├─ mediafire url
-├─ ytmp3 url
-├─ ytmp4 url
-├─ gitclone url
-├─ tiktok url
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Search
+⧽ ◎ pint query
+⧽ ◎ play query
+╰
 
-┌──────
-├─── ▢ Search
-├─ pint query
-├─ play query
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Open-Ai
+⧽ ◎ rimuru-ai query
+⧽ ◎ trash-ai query
+⧽ ◎ ai query
+╰
 
-┌──────
-├─── ▢ Open-Ai
-├─ rimuru-ai query
-├─ trash-ai query
-├─ ai query
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Pushct & Jpm
+⧽ ◎ pushkontak teks
+⧽ ◎ jpm
+⧽ ◎ jpm2
+⧽ ◎ jpmht
+⧽ ◎ jpmht2
+╰
 
-┌──────
-├─── ▢ Pushct & Jpm
-├─ pushkontak teks
-├─ jpm
-├─ jpm2
-├─ jpmht
-├─ jpmht2
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Exc
+⧽ ◎ spam-pair 6287##
+⧽ ◎ temp-ban 6287##
+⧽ ◎ cek-os reply pesan
+⧽ ◎ oto$
+╰
 
-┌──────
-├─── ▢ Exc
-├─ spam-pair 6287##
-├─ temp-ban 6287##
-├─ cek-os reply pesan
-├─ oto$
-└
-
-┌──────
-├─── ▢ Bug
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Bug
 ┠─ ‣ .command 5
-├─ atme_devorsixc ( no ammount )
-├─ allv ( no ammount )
-├─ crashome ( no ammount )
-├─ crashpix ( no ammount )
-├─ crashsql ( no ammount )
-├─ crashimmune ( no ammount )
-├─ iosb ( ios )
-├─ paymsg ( ios )
-├─ crashspace
-├─ extend_text
-├─ crashui
-├─ crashjid
-├─ crash_resp
-├─ cannotbecast
-├─ philips
-├─ nullpointer
-├─ rev-pay
-├─ bughole
-├─ ephemeral
-├─ cquoted
-├─ dbcorrupt
-├─ mpm
-├─ single_sct
-├─ buglist
-├─ crashnote
-├─ bugcombine
-├─ lottiesticker
-├─ crashsticker
-├─ button6
-├─ cta_url
-├─ callreq
-├─ galaxy_msg
-├─ flow_action
-├─ schedulecall
-├─ event
-├─ doc1
-├─ doc2
-├─ darkness
-├─ filetype:63
-├─ crashnote
-├─ convite
-├─ convite_ch
-├─ convite_ios ( ios )
-├─ gifplayb
-├─ virtag
-├─ virvid
-├─ virpen
-├─ virgam
-├─ rickr
-├─ csx
-├─ carsmsg
-├─ event
-├─ ephemeral
-├─ crash_win  ( wa-win )
-├─ crash_web ( wa-web )
-├─ loc
-├─ ipay ( ios )
-└
+⧽ ◎ atme_devorsixc ( no ammount )
+⧽ ◎ allv ( no ammount )
+⧽ ◎ crashome ( no ammount )
+⧽ ◎ crashpix ( no ammount )
+⧽ ◎ crashsql ( no ammount )
+⧽ ◎ crashimmune ( no ammount )
+⧽ ◎ iosb ( ios )
+⧽ ◎ paymsg ( ios )
+⧽ ◎ crashspace
+⧽ ◎ extend_text
+⧽ ◎ crashui
+⧽ ◎ crashjid
+⧽ ◎ crash_resp
+⧽ ◎ cannotbecast
+⧽ ◎ philips
+⧽ ◎ nullpointer
+⧽ ◎ rev-pay
+⧽ ◎ bughole
+⧽ ◎ ephemeral
+⧽ ◎ cquoted
+⧽ ◎ dbcorrupt
+⧽ ◎ mpm
+⧽ ◎ single_sct
+⧽ ◎ buglist
+⧽ ◎ crashnote
+⧽ ◎ bugcombine
+⧽ ◎ lottiesticker
+⧽ ◎ crashsticker
+⧽ ◎ button6
+⧽ ◎ cta_url
+⧽ ◎ callreq
+⧽ ◎ galaxy_msg
+⧽ ◎ flow_action
+⧽ ◎ schedulecall
+⧽ ◎ event
+⧽ ◎ doc1
+⧽ ◎ doc2
+⧽ ◎ darkness
+⧽ ◎ filetype:63
+⧽ ◎ crashnote
+⧽ ◎ convite
+⧽ ◎ convite_ch
+⧽ ◎ convite_ios ( ios )
+⧽ ◎ gifplayb
+⧽ ◎ virtag
+⧽ ◎ virvid
+⧽ ◎ virpen
+⧽ ◎ virgam
+⧽ ◎ rickr
+⧽ ◎ csx
+⧽ ◎ carsmsg
+⧽ ◎ event
+⧽ ◎ ephemeral
+⧽ ◎ crash_win  ( wa-win )
+⧽ ◎ crash_web ( wa-web )
+⧽ ◎ loc
+⧽ ◎ ipay ( ios )
+╰
 
-┌──────
-├─── ▢ Target
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Target
 ┠─ ‣ .command 6287##
-├─ galaxy
-├─ radiob
-├─ dropd
-├─ flowto
-├─ 1st
-├─ blobx
-├─ screen_0
-├─ ext-3
-├─ paym
-├─ listresp
-├─ textview
-├─ unkowntype
-├─ flowresp
-├─ gifplayback ( ios )
-├─ crashios ( ios )
-├─ matar-immn ( immune )
-├─ crashptv ( all ~ios~ )
-├─ length-0 ( samsung )
-├─ home:) ( samsung )
-├─ samsung-cl ( samsung )
-├─ classx ( samsung )
-├─ castx ( samsung )
-├─ bugwin ( wa win )
-├─ bugweb ( wa web )
-└
+⧽ ◎ galaxy
+⧽ ◎ radiob
+⧽ ◎ dropd
+⧽ ◎ flowto
+⧽ ◎ 1st
+⧽ ◎ blobx
+⧽ ◎ screen_0
+⧽ ◎ ext-3
+⧽ ◎ paym
+⧽ ◎ listresp
+⧽ ◎ textview
+⧽ ◎ unkowntype
+⧽ ◎ flowresp
+⧽ ◎ gifplayback ( ios )
+⧽ ◎ crashios ( ios )
+⧽ ◎ matar-immn ( immune )
+⧽ ◎ crashptv ( all ~ios~ )
+⧽ ◎ length-0 ( samsung )
+⧽ ◎ home:) ( samsung )
+⧽ ◎ samsung-cl ( samsung )
+⧽ ◎ classx ( samsung )
+⧽ ◎ castx ( samsung )
+⧽ ◎ bugwin ( wa win )
+⧽ ◎ bugweb ( wa web )
+╰
 
-┌──────
-├─── ▢ Bug ( Gc )
-├─ atk ( select group )
-├─ getview idgc
-├─ callmsg linkgc
-└
+╭෴෴෴෴෴෴
+⧽ ◎෴෴ ▢ Bug ( Gc )
+⧽ ◎ atk ( select group )
+⧽ ◎ getview idgc
+⧽ ◎ callmsg linkgc
+╰
 `;
 
-if ( typeMenu === true ) {
 var etc = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 viewOnceMessage: {
 message: {
@@ -659,13 +661,13 @@ body: {
 text: teks
 },
 footer: {
-text: "#Powered By TdX"
+text: "#𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐃𝐑𝐄𝐗 ⧼𝕲⧽.ᵍʳᵉʸ"
 },
 nativeFlowMessage: {
 buttons: [{
 name: "cta_url",
 buttonParamsJson: `{
-display_text: '► 𝐓.𝐝͢.𝐗 - 𝚵𝐗͢𝐏𝐋𝚫͢𝐍 ◄',
+display_text: '► 𝐝͢.𝐑.𝐄.𝐗 - 𝚵𝐗͢𝐏𝐋𝚫͢𝐍 ◄',
 url: "${global.url2}",
 merchant_url: "${global.url2}"
 }`
@@ -676,28 +678,208 @@ messageParamsJson: ""
 }
 }
 }), { userJid: m.chat, quoted: m })
-await tdx.relayMessage(m.chat, etc.message, { messageId: etc.key.id })
-} else if ( typeMenu === false) {
-await tdx.sendMessage(m.chat, {
-  image: menunya,
-  caption: teks,
-  contextInfo:{externalAdReply:{
-title: `TdXClient - Master`,
-  body: `# By : Devorsixcore`, 
-  showAdAttribution: true,
-  thumbnail:razer,
-  mediaType: 4,
-  MediaUrl:`${global.url1}`,
-  sourceUrl:`${global.url1}`,
-  }}
- }, {quoted: m })
-}
+ tdx.relayMessage(m.chat, etc.message, { messageId: etc.key.id })
 
 await tdx.sendMessage(m.chat, {
 audio: hwm,
 mimetype: 'audio/mpeg'
 }, { quoted: m
 })
+}
+break
+case 'ping': case 'p': {
+let timestamp = speed()
+let latensi = speed() - timestamp
+xreply(`𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒 𝐌𝐃 𝐒𝐏𝐄𝐄𝐃\n *${latensi.toFixed(4)} ms*`)
+}
+break
+case "take": case "steal": {
+const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
+    if (!m.quoted) {
+        return xreply(`Please mention a sticker to steal it.`);
+    }
+
+    var packName = args.join(" ") || global.packname;
+    var author = args.join(" ") || global.author;
+    if (/webp/.test(mime)) {
+        let mediaMess = await quoted.download();
+        let stickerMess = new Sticker(mediaMess, {
+            pack: pushname,
+	    author: author,
+            type: StickerTypes.FULL,
+            categories: ["🤩", "🎉"],
+            id: "12345",
+            quality: 70,
+            background: "transparent",
+        });
+        const stickerBuffer = await stickerMess.toBuffer();
+        tdx.sendMessage(m.chat, { sticker: stickerBuffer }, { quoted: m });
+    } else {
+        xreply(
+            `Please mention a *Sticker* and type *${prefix}steal <packname>* to create a sticker with your specified pack name.`
+        );
+    }
+} 
+break
+case "a": case "alive":
+const audiovn = "./dx.mp3";
+    const dooc = {
+        audio: {
+          url: audiovn
+        },
+        mimetype: 'audio/mp4',
+        ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100],
+        fileName: "",
+
+        contextInfo: {
+          mentionedJid: [m.sender],
+          externalAdReply: {
+          title: "𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒 𝚳𝐃 𝚰𝐒 𝚮𝚵𝚪𝚵 𝚻𝚯 𝐖𝚯𝚪𝐒𝚵𝚴 𝐔𝚸 𝐘𝚯𝐔𝚪 𝐃𝚵𝐋𝚰𝐆𝚮𝚻𝐅𝐔𝐋 𝐃𝚫𝐘",
+          body: "https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v",
+          thumbnailUrl: "https://telegra.ph/file/632eb5f0ad1052f12df95.jpg",
+          sourceUrl: "https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v",
+          mediaType: 1,
+	  showAdAttribution: true,
+          renderLargerThumbnail: true,
+          }}
+      };
+      break
+		
+case 'r': case 'runtime':
+                let pinga = `𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒 𝚳𝐃 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
+                tdx.sendMessage(m.chat, {
+                    text: pinga,
+                    contextInfo: {
+                        externalAdReply: {
+                            showAdAttribution: true,
+                            title: '𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒 𝐌𝐃 - 𝐁𝐘 𝐃𝐑𝐄𝐗',
+                            body: 'https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v',
+                            thumbnailUrl: 'https://telegra.ph/file/632eb5f0ad1052f12df95.jpg',
+                            sourceUrl: 'https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v',
+                            mediaType: 1,
+                            renderLargerThumbnail: true
+                        }
+                    }
+                }, {
+                    quoted: m
+                })
+                break
+case 'restart':  
+if (!isDeveloper) return xreply(mess.owner)
+xreply(`> *Bot is now restarting*\n> *wait for 20 seconds*`)
+  await sleep(2000)  
+  process.exit()  
+  break
+//=================================================//
+case "delete": case "del": { 
+   if (!m.isGroup) throw group; 
+  if (!isAdmins && !isOwner) return xreply('Only Admin')
+if (!isBotAdmins) return xreply(`Bot is not Admin:(`) 
+    if (!m.quoted) return xreply('No message quoted for deletion'); 
+    let { chat, fromMe, id, isBaileys } = m.quoted; 
+   if (isBaileys) return xreply('I cannot delete. Quoted message is my message or another bot message.'); 
+    tdx.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.quoted.id, participant: m.quoted.sender } }); 
+  } 
+ break
+//=================================================//
+case 'tgsticker': case 'telestick': {
+if (!isDeveloper) return 
+if (args[0] && args[0].match(/(https:\/\/t.me\/addstickers\/)/gi)) {
+let xeonresources = await Telesticker(args[0])
+await xreply(`Sending ${xeonresources.length} stickers...`)
+if (m.isGroup && xeonresources.length > 30) {
+await xreply('Number of stickers more than 30, bot will send it in private chat.')
+for (let i = 0; i < xeonresources.length; i++) {
+ryozingod.sendMessage(m.sender, { sticker: { url: xeonresources[i].url }})
+}
+} else {
+for (let i = 0; i < xeonresources.length; i++) {
+tdx.sendMessage(m.chat, { sticker: { url: xeonresources[i].url }})
+}
+}
+} else xreply(`Where is the telegram sticker link?\nExample. ${prefix + command} https://t.me/addstickers/FriendlyDeath`)
+}
+break
+//=================================================//
+case 'encrypt': case 'enc': {
+if (!isDeveloper) return 
+if (!text && !m.quoted) return xreply('Quote/tag a code to encrypt');
+let forq = m.quoted ? m.quoted.text ? m.quoted.text : text ? text : m.text : m.text
+var JavaScriptObfuscator = require('javascript-obfuscator');
+ 
+var obfuscationResult = JavaScriptObfuscator.obfuscate(forq, 
+
+  
+    {
+        compact: false,
+        controlFlowFlattening: true,
+        controlFlowFlatteningThreshold: 1,
+        numbersToExpressions: true,
+        simplify: true,
+        stringArrayShuffle: true,
+        splitStrings: true,
+        stringArrayThreshold: 1
+    }
+);
+
+console.log("successfully encrypted the code");
+xreply(obfuscationResult.getObfuscatedCode());
+}
+break
+//=================================================//		
+case "getpp": case "dp": { 
+ try { 
+ ha = m.quoted.sender; 
+ qd = await tdx.getName(ha); 
+ pp2 = await tdx.profilePictureUrl(ha,'image'); 
+ } catch {  
+ pp2 = 'https://tinyurl.com/yx93l6da'; 
+ } 
+  if (!m.quoted && !m.mentionedJid) throw `Tag a user!`; 
+ bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 of ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒 𝐌𝐃`; 
+ tdx.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: m}); 
+ } 
+ break;
+//=================================================//		
+case 'icongc': case 'geticon': case 'groupicon': case  'getppgc':
+	if (!isGroup) return 
+	try {
+	var ppimg = await tdx.profilePictureUrl(m.chat, 'image')
+	} catch (err) {
+	console.log(err)
+	var ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+	}
+	await tdx.sendMessage(m.chat, { image: { url: ppimg }}, { quoted: m })
+	break
+//=================================================//
+case "left": case "leave": { 
+if (!isDeveloper) return  
+ await xreply(m.chat,  '𝙱𝙾𝚃 𝙸𝚂 𝙻𝙴𝙰𝚅𝙸𝙽𝙶 𝙽𝙾𝚆. . .'); 
+                 await tdx.groupLeave(m.chat); 
+  
+             } 
+	break
+case "admin" : { 
+                if (!isPremium) return 
+if (!isGroup) return xgreply('Only Group')
+if (!isAdmins && !isOwner) return xreply('Only Admin')
+if (!isBotAdmins) return xreply(`Bot is not admin:(`) 
+                 await tdx.groupParticipantsUpdate(m.chat,  [m.sender], 'promote'); 
+ xreply('ᦔ𝘳ꫀ᥊ ⧼𝕲⧽°•°•°𝓰𝓻𝓮𝔂 【𓍯】 𝐂𝐫𝐨𝐰𝐧𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✞'); 
+          }
+          break
+
+	case "promote" : { 
+if (!isPremium) return 
+if (!isGroup) return xreply('Only Group')
+if (!isAdmins && !isOwner) return xreply('Only Admin')
+if (!isBotAdmins) return xreply(`Bot is not Admin:(`) 
+ if (!m.quoted && !m.mentionedJid) throw `Tag someone with the command!`; 
+                 let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
+  
+                 await tdx.groupParticipantsUpdate(m.chat, users, 'promote'); 
+ xreply('  𝐂𝐫𝐨𝐰𝐧𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲! 👑'); 
 }
 break
 case 'public': {
@@ -1134,7 +1316,7 @@ case 'tagall': {
 if (!isGroup) return xreply(mess.ingroup)
 if (!isAdmins) return xreply(mess.admin)
 await reaction(m.chat, "🔁")
-let teks = `─── ▻ [ *Tag All* ] ◅ ───
+let teks = `෴෴─ ▻ [ *Tag All* ] ◅ ෴෴─
 
  ⬡ *Pesan : ${q ? q : 'kosong'}*\n\n`
 for (let mem of participants) {
@@ -1172,7 +1354,7 @@ header: {
 hasMediaAttachment: true
 },
 body: {
-text: "  - # TrashDex Execution 🏴‍☠️"
+text: "  - # 𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒 𝐄𝐗𝐄𝐂𝐔𝐓𝐈𝐎𝐍🏴‍☠️"
 },
 footer: {
 text: "! Select the group to execute "
@@ -1181,7 +1363,7 @@ nativeFlowMessage: {
 buttons: [{
 name: "single_select",
 buttonParamsJson: JSON.stringify({
-title: "Powered By TrashDex",
+title: "𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐃𝐑𝐄𝐗 ⧼𝕲⧽.ᵍʳᵉʸ",
 sections: [{
 title: "Only Open groups can be Executed",
 rows: rows
@@ -1225,7 +1407,7 @@ header: {
 hasMediaAttachment: true
 },
 body: {
-text: "  - # TrashDex - Push Contact 🏴‍☠️"
+text: "  - # 𝐃𝐑𝐄𝐗 ⧼𝕲⧽ 𝐌𝐎𝐃𝐒- Push Contact 🏴‍☠️"
 },
 footer: {
 text: "! Select a group to Push Ctt to that group !!"
@@ -1234,7 +1416,7 @@ nativeFlowMessage: {
 buttons: [{
 name: "single_select",
 buttonParamsJson: JSON.stringify({
-title: "Powered By TrashDex",
+title: "𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐃𝐑𝐄𝐗 ⧼𝕲⧽.ᵍʳᵉʸ",
 sections: [{
 title: "Only Open groups can be Push Contact",
 rows: rows
@@ -1274,7 +1456,7 @@ nativeFlowMessage: {
 buttons: [{
 name: "single_select",
 buttonParamsJson: JSON.stringify({
-title: "Powered By TrashDex",
+title: "𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐃𝐑𝐄𝐗 ⧼𝕲⧽.ᵍʳᵉʸ",
 sections: [{
 title: "Only Open groups can be Push Contact",
 rows: [{
