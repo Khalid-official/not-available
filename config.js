@@ -9,17 +9,16 @@
 global.prefa = ['','!','.',',','🐤','🗿']
 global.owner = ['967730588759']
 global.ownMain = '967730588759'
-global.NamaOwner = 'KhalidM_dz' //gausah diganti
+global.NamaOwner = 'ofc' //gausah diganti
 global.sessionName = 'session'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
-global.namabot = 'Tdx-Md' //ganti aj klo mau
-global.author = 'KhalidM_dz' //ganti aj klo mau
-global.packname = 'Tdx - Client' //ganti aj klo mau
-global.typeMenu = true // jika bernilai true, menu akan menjadi button namun tidak terlihat di ios
-global.url1 = 'https://www.instagram.com/khalid.__official' //gausah diganti
+global.namabot = 'ofc' //ganti aj klo mau
+global.author = 'ofc' //ganti aj klo mau
+global.packname = 'ofc' //ganti aj klo mau
+global.url1 = 'https://tinyurl.com/2yafw83v' //gausah diganti
 global.url2 = 'https://github.com/khalid-official' //gausah diganti
-global.linkgc = 'https://shorturl.at/NdwIJ'
-global.delayjpm = 1250
+global.linkgc = 'https://tinyurl.com/2637xxrt'
+global.delayjpm = 1500
 
 global.mess = { // Custom Sesuka Lu
 ingroup: 'This feature can only be used in groups.',
